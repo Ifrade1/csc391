@@ -1,6 +1,6 @@
 # csc391
 
-##Instructions
+## Instructions
 rna.pl takes a DNA fasta file, & converts it to a new RNA file
 
 in order to produce a file with the RNA folded, you run this command in the RNAfold/bin directory:
