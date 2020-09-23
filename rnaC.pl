@@ -28,15 +28,16 @@ my $len = length($RNA);
 my $loc = index($RNA, " ");
 
 my $RNA = substr($RNA, 0, $loc);
-
+if ($rnaName eq ""){
+        $rnaName = "v".$RNA_FOLD;
+}
 #sends the vienna format to a file
 open (FILE_TO_WRITE, ">", "$rnaName")
-     or die "Cannot open $filename to write: $!";
+     or die "Cannot open $rnaName to write: $!";
 print FILE_TO_WRITE "$RNA\n";
-print FILE_TO_WRITE "$RNA2";
 close(FILE_TO_WRITE);
-if (-e $filename){
-  print "RNA were written to $filename file successfully!\n";
+if (-e $rnaName){
+  print "RNA were written to $rnaName file successfully!\n";
 }
 
 my $s = $RNA;
