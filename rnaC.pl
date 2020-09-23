@@ -42,7 +42,6 @@ if (-e $rnaName){
 
 my $s = $RNA;
 #print "$s\n";
-print $loc;
 my @stack = ();					#holds last known ( index
 my @diffs = ();					#holds the distance between each () pair
 my $curr;					#holds each character of $s per loop
