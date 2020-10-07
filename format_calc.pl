@@ -29,5 +29,3 @@ for (my $i = 0; $i < (scalar @diffs); $i++) {
                                                                                                                                             
 my $avg = $count / scalar @diffs;               #average the values
 print "Avg: $avg"."\n";                         #print average
-                                                                                                                          68,1          Bot
-p
