@@ -62,16 +62,17 @@ for (my $i = 0; $i < (scalar @diffs); $i++) {
   print $diffs[$i].", ";			#print curr element of @diffs
   $count = $count + $diffs[$i];			#add $count to curr element
 } print "\n";
-
 my $avg = $count / scalar @diffs;		#average the values
 print "Avg: $avg"."\n";				#print average
-my $med;
-my @medArray = sort @diffs;
+
+#find median, for for stats info
+my $med = 0.0;
+my $diffSize = @diffs;
+my @medArray = sort{$a <=> $b} @diffs;
 if (@medArray % 2 == 0){
 $med = ($medArray[(@medArray/2)-1] + $medArray[(@medArray/2)])/2;
-print "even\n";
 }
 else{
 $med = $medArray[@medArray/2];
         }
-print "Med: $med"."\n";
+printf("Med: %.1f \n", $med);
