@@ -1,0 +1,12 @@
+﻿DevShell:
+-use RNAfold on the fasta file of choice
+=> RNAfold < fasta/test.fa > folded/test.txt
+-run f2plot.pl on the resultant .txt file
+=> f2plot.pl folded/test.txt > plots/test.plot
+
+
+Virtual Desktop
+-open gnuplot
+=> gnuplot
+-plot the file
+=> plot "plots/test.plot" with lines
