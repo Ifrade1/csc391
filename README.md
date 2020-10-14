@@ -13,13 +13,14 @@ rnaFoldrm.pl takes that new file, and removes the rna sequence. this program doe
 
 ### DevShell:
 -use RNAfold on the fasta file of choice
-=> RNAfold < fasta/test.fa > folded/test.txt
+
+> => RNAfold < fasta/test.fa > folded/test.txt
 -run f2plot.pl on the resultant .txt file
-=> f2plot.pl folded/test.txt > plots/test.plot
+> => f2plot.pl folded/test.txt > plots/test.plot
 
 
 ### Virtual Desktop
 -open gnuplot
-=> gnuplot
+> => gnuplot
 -plot the file
-=> plot "plots/test.plot" with lines
+> => plot "plots/test.plot" with lines
