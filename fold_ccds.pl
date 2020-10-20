@@ -1,5 +1,6 @@
 #!/usr/bin/perl -w
 #use strict;
+#note: thsi was written specifically to take "sampleSize.txt", get the files listed, and fold them. 
 my $rna_list =$ARGV[0];
 open(FILE_TO_READ, "<",  "$rna_list")
         or die "Cannot open file$ $rna_list :$!";
