@@ -1,0 +1,43 @@
+
+Within a window of 1000, we have more than 60% of base pairs
+
+
+Aggregate the human RNA together, Agggregate the flu genes together
+
+Give a sequence, 
+Break it into k-mers
+
+each organism has a preference for bases, dinuclleotides
+The larger k-mers are more specific 
+Compare distribution with known organisms
+
+How close can you get
+The sequence created by the k-mer
+
+1/4^(size of overlap)
+
+Expect to find some that are reverse complimentary
+Number of reverse  matching k-mers, correlates to energy
+
+Reduce the chance for strong locla bonds
+
+Given a sequence of rna, count the k-mers, how many k-mers have matching reverse
+This score can be computed
+
+Figure out if the swap is desirable
+
+RNA sequence s
+Map each different amino acid
+Amino acid apears at position 27, 33, 81
+Loop (n times){
+Select random amino acid)
+Select two random positions for that amino acid
+If codon at position 1 is different than 2
+Attempt swap
+Figure the average probablity of binding.
+Use linear fold algorithm probability of each base
+If it increases the average, swap it
+}
+Every x/n times, fold it
+
+
