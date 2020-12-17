@@ -1,4 +1,4 @@
-usee strict;
+use strict;
 #Takes in the file, removes spaces between lines 
 my $RNA_FOLD = $ARGV[0];
 open (FILE_TO_READ, "<", "$RNA_FOLD")
