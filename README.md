@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This codebase replaces the now deprecated version: https://github.com/abentu0101/LinearFold.
 This version fixes many bugs and design problems in the old version.
 
@@ -147,3 +148,7 @@ External loop : -1.70
 GGGCUCGUAGAUCAGCGGUAGAUCGCUUCCUUCGCAAGGAAGCCCUGGGUUCAAAUCCCAGCGAGUCCACCA
 (((((((..((((.......))))((((((((...)))))))).(((((.......)))))))))))).... (-31.50)
 ```
+=======
+# hello-world
+1st github program
+>>>>>>> 8e0c5202704f487dd06337e8b43bd53054f218ff
