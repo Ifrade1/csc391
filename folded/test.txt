@@ -1,0 +1,3 @@
+> Sample fasta file
+AUGGAUGAUGAAGUGAUCGCGCAUCGGCC
+..((.(((((..((....)).))))).)) ( -4.30)
